@@ -1,0 +1,85 @@
+
+1 QuestãoClique no número da questão para visualizá-la
+Enunciado:
+Questão 1
+Olá, caro(a) estudante do Curso Técnico em Desenvolvimento de Sistemas!
+Bem-vindo(a) ao Mapa Integrado das disciplinas Programação Orientada a Objetos e Banco de Dados.
+
+Leia o trecho a seguir:
+
+A Programação Orientada a Objetos (POO) e o uso de Banco de Dados são conceitos essenciais para um técnico em Desenvolvimento de Sistemas, pois são necessariamente a base o desenvolvimento de aplicações robustas, escaláveis e passíveis de manutenibilidade. A POO permite organizar o código em torno de objetos, que representam entidades do mundo real. Isso facilita a modelagem de sistemas complexos, promovendo a reutilização de código, empregando os conceitos de herança, a flexibilidade do polimorfismo, e a proteção de dados com o encapsulamento. Ao pensar em termos de objetos e suas interações, o desenvolvedor cria sistemas mais modulares e adaptáveis a mudanças. Bancos de dados, por sua vez, são necessários para armazenar, gerenciar e recuperar grandes volumes de informações de forma eficiente e segura. A integração de POO com bancos de dados permite criar aplicações que não apenas manipulam dados de forma eficaz, mas também mantêm a lógica de negócios clara e organizada. A capacidade de criar e gerenciar tabelas, consultas e relacionamentos entre dados é vital para que as aplicações funcionem de forma integrada e responsiva. Espera-se que um Técnico em Desenvolvimento de Sistemas seja capaz de desenvolver sistemas confiáveis que atendam às necessidades dos stakeholders, além de facilitar a manutenção e evolução contínua das aplicações. 
+O diagrama de classes é uma ferramenta essencial na Programação Orientada a Objetos (POO) pois permite a visualização e o planejamento da estrutura de um sistema antes de sua implementação. Geralmente descrita em Linguagem UML (Unified Modeling Language) o diagrama de classes oferece uma representação gráfica das classes, seus atributos, métodos e as relações entre elas, oferecendo uma visão estruturada e planejada do sistema, ajudando a manter a coesão, modularidade e clareza durante o desenvolvimento do software. 
+
+Tendo em vista o que foi apresentado e os conteúdos aprendidos durante o módulo, chegou a hora de realizar sua atividade MAPA! Vamos lá?
+
+1. Realize a leitura/interpretação do diagrama de classes abaixo escrito em linguagem UML​:
+
+2. Implemente utilizando a linguagem de programação Java as classes, entidades, atributos e relacionamentos descritos no diagrama do item “1”.
+3. Na classe “Main” deste projeto Java, implemente um array de veículos, ônibus e caminhões, responsável por armazenar objetos criados para exemplo e teste do seu código. Implemente uma forma de exibição deste teste no console do seu ambiente integrado de desenvolvimento (IDE).
+4. Para entrega desta atividade, você deverá fornecer:
+
+a) Código fonte da classe “Main”, “Veiculo”, “Onibus” e “Caminhao”. 
+b) Registro de tela do console da sua IDE após a execução da classe “Main” implementando o que foi solicitado no item “3” desta atividade;
+c) Código fonte em SQL para criação do banco de dados que reflete o diagrama de classes fornecido e o projeto implementado em Java.
+
+5. O código-fonte fornecido deverá estar comentado para que o(a) Professor(a) responsável pela correção da atividade possa compreender sua lógica e a implementação do código. Atenção, você NÃO precisará criar o banco de dados (BD), persistir os objetos instanciados e/ou instalar um gerenciador de banco de dados em seu ambiente. Você deverá somente fornecer o código SQL para criar o um BD considerando as classes, atributos e relacionamentos descritos no diagrama de classes fornecido.
+
+
+Você também deve se atentar aos seguintes pontos: 
+- Você deve utilizar o FORMULÁRIO PADRÃO para responder a atividade MAPA: disponível no material da disciplina. 
+- Salvar o arquivo de Word em formato PDF (Clicar em Arquivo > Salvar como > em tipo, alterar para PDF). 
+- Anexar o arquivo final em PDF e certificar-se do anexo correto do arquivo antes de finalizar e, então, clicar em "Finalizar Questionário". 
+
+Bons estudos! 
+
+O arquivo da sua resposta deverá ter o tamanho máximo de 80MB
+
+Solte o arquivo, ou clique aqui para selecionar
+upload instantâneo
+ 
+ 
+© 2026 UNICESUMAR. Todos os direitos reservados.
+
+Política de privacidade
+
+Voltar
+===================================
+  Instruções para 0 repositorio do GitHub....
+===================================
+
+Manter o hábito de dar commit e subir os projetos para o GitHub a cada atividade concluída é o melhor jeito de criar um portfólio forte e garantir que você nunca perca seu código.
+​Para organizar o repositório de forma profissional, não devemos enviar os arquivos binários .class para o GitHub, pois eles são apenas o resultado da compilação que o compilador gera na hora. Vamos enviar apenas os códigos-fonte (.java), o script do banco (.sql) e os arquivos de texto.
+​Siga este passo a passo direto no seu Termux dentro da pasta ~/faculdade_aulas/aula1:
+
+​1. Limpar e Organizar os Arquivos
+​Primeiro, remova os arquivos .class da pasta atual para não irem para o controle de versão:
+
+  => rm *.class
+-----------------------------------
+2. Criar um arquivo .gitignore (para o Git ignorar os arquivos binários futuros)
+=> echo "*.class" > .gitignore
+-----------------------------------
+
+3. Configurar e Enviar para o GitHub
+​Agora, execute os comandos do Git olhando para o seu repositório recém-criado ([https://github.com/claudio815/ADS_aula1.git](https://github.com/claudio815/ADS_aula1.git)):
+
+# Inicializa o repositório Git na pasta
+git init
+
+# Adiciona todos os arquivos importantes (exceto os .class ignorados)
+=> git add .
+-----------------------------------
+# Faz o primeiro commit com uma mensagem descritiva
+=> git commit -m "Primeiro commit: Atividade MAPA POO e Banco de Dados"
+-----------------------------------
+
+# Garante que o nome da branch principal é 'main'
+=> git branch -M main
+-----------------------------------
+
+# Conecta ao seu repositório remoto no GitHub
+=> git remote add origin https://github.com/claudio815/ADS_aula1.git
+-----------------------------------
+# Envia os arquivos para o GitHub
+=> git push -u origin main
+
